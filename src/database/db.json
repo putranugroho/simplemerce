@@ -1,0 +1,147 @@
+{
+  "users": [
+    {
+      "username": "putra",
+      "email": "putra@gmail.com",
+      "password": "satuduatiga",
+      "id": 1
+    },
+    {
+      "username": "nugroho",
+      "email": "nugroho@gmail,com",
+      "password": "empatlimaenam",
+      "id": 2
+    },
+    {
+      "username": "putra25",
+      "email": "putra25@gmail.com",
+      "password": "12345",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "nama": "Iwatani-sama",
+      "desc": "The main protagonist of The Rising of the Shield Hero. He was a university student before being summoned to another world, where he had to fight against the waves of calamity the Shield Hero, one of four heroes summoned.",
+      "price": "50000",
+      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/f/fc/Naofumi_Default.png/revision/latest/scale-to-width-down/310?cb=20190203110835",
+      "id": 1,
+      "stock": "10"
+    },
+    {
+      "nama": "Rapthalia-chan",
+      "desc": "A Raccoon-type Demi-Human who was the first real member of the Shield Hero's party after he purchased her as a slave. She is now the Katana Hero",
+      "price": "85000",
+      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/4/44/Raphtalia_Light_Novel.png/revision/latest/scale-to-width-down/310?cb=20190515110336",
+      "id": 2,
+      "stock": "13"
+    },
+    {
+      "nama": "Filo-chan",
+      "desc": "Next Filolial Queen",
+      "price": "95000",
+      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/0/02/Firo_Default.png/revision/latest?cb=20141205054348",
+      "id": 3,
+      "stock": "19"
+    },
+    {
+      "nama": "Melty-chan",
+      "desc": "Second Princess and heir to Melromarc throne",
+      "price": "75000",
+      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/f/f9/Melty_Default.png/revision/latest/scale-to-width-down/310?cb=20141205163925",
+      "id": 4,
+      "stock": "7"
+    },
+    {
+      "nama": "Ren-sama",
+      "desc": "Sword Hero",
+      "price": "40000",
+      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/2/2b/Ren_Light_Novel.png/revision/latest/scale-to-width-down/310?cb=20190411095757",
+      "id": 5,
+      "stock": "3"
+    }
+  ],
+  "cart": [
+    {
+      "idUser": 3,
+      "idProduct": 4,
+      "nama": "Melty-chan",
+      "qty": "4",
+      "price": "75000",
+      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/f/f9/Melty_Default.png/revision/latest/scale-to-width-down/310?cb=20141205163925",
+      "id": 2
+    },
+    {
+      "idUser": 1,
+      "idProduct": 2,
+      "nama": "Rapthalia-chan",
+      "qty": 3,
+      "price": "85000",
+      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/4/44/Raphtalia_Light_Novel.png/revision/latest/scale-to-width-down/310?cb=20190515110336",
+      "id": 3
+    },
+    {
+      "idUser": 1,
+      "idProduct": 3,
+      "nama": "Filo-chan",
+      "qty": 2,
+      "price": "95000",
+      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/0/02/Firo_Default.png/revision/latest?cb=20141205054348",
+      "id": 4
+    },
+    {
+      "idUser": 3,
+      "idProduct": 5,
+      "nama": "Ren-sama",
+      "qty": 5,
+      "price": "40000",
+      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/2/2b/Ren_Light_Novel.png/revision/latest/scale-to-width-down/310?cb=20190411095757",
+      "id": 5
+    },
+    {
+      "idUser": 1,
+      "idProduct": 1,
+      "nama": "Iwatani-sama",
+      "qty": 4,
+      "price": "50000",
+      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/f/fc/Naofumi_Default.png/revision/latest/scale-to-width-down/310?cb=20190203110835",
+      "id": 6
+    },
+    {
+      "idUser": 3,
+      "idProduct": 3,
+      "nama": "Filo-chan",
+      "qty": 2,
+      "price": "95000",
+      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/0/02/Firo_Default.png/revision/latest?cb=20141205054348",
+      "id": 7
+    },
+    {
+      "idUser": 2,
+      "idProduct": 2,
+      "nama": "Rapthalia-chan",
+      "qty": "1",
+      "price": "85000",
+      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/4/44/Raphtalia_Light_Novel.png/revision/latest/scale-to-width-down/310?cb=20190515110336",
+      "id": 8
+    },
+    {
+      "idUser": 2,
+      "idProduct": 5,
+      "nama": "Ren-sama",
+      "qty": 1,
+      "price": "40000",
+      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/2/2b/Ren_Light_Novel.png/revision/latest/scale-to-width-down/310?cb=20190411095757",
+      "id": 10
+    },
+    {
+      "idUser": 3,
+      "idProduct": 1,
+      "nama": "Iwatani-sama",
+      "qty": 3,
+      "price": "50000",
+      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/f/fc/Naofumi_Default.png/revision/latest/scale-to-width-down/310?cb=20190203110835",
+      "id": 11
+    }
+  ]
+}
