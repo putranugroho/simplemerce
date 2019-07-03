@@ -16,24 +16,30 @@ import {
     DropdownToggle,
     DropdownMenu,
     DropdownItem } from 'reactstrap';
+import Axios from 'axios';
 
     class Header extends Component {
-        constructor(props) {
-            super(props);
-        
-            this.toggle = this.toggle.bind(this);
-            this.state = {
-              isOpen: false
-            };
-          }
-          toggle() {
-            this.setState({
-              isOpen: !this.state.isOpen
-            });
-          }
+        state = {
+            cart : []
+        }
+
+        componentDidMount(){
+            Axios.get('http://localhost:2019/cart').then(res=>this.setState({cart:res.data}))
+        }
 
         onButtonClick = () => {
             this.props.onLogoutUser()
+        }
+
+        // Menampilkan jumlah product yang berada dalam Cart
+        jumlahCart = () => {
+            var cart = 0
+            for (let i = 0; i < this.state.cart.length; i++) {
+                if(this.props.user.id === this.state.cart[i].idUser){
+                    cart += 1
+                }
+            }
+            return (cart)
         }
     
         render () {
@@ -79,8 +85,8 @@ import {
                         </NavItem>
                         <NavItem className='mt-2 ml-auto'>
                         <Link to='/checkout' >
-                            <button className = 'btn btn-primary ml-1 mt-auto'>
-                            <img id='cart' src='https://image.flaticon.com/icons/svg/34/34568.svg'></img> Shopping Cart
+                            <button className = 'btn btn-primary ml-4 mt-auto'>{this.jumlahCart()}
+                            <img id='cart' className='ml-2 mr-2' src='https://image.flaticon.com/icons/svg/34/34568.svg'></img>Shopping Cart 
                             </button>
                         </Link>
                         </NavItem>

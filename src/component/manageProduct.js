@@ -55,7 +55,7 @@ class manageProduct extends Component {
         axios.delete('http://localhost:2019/products/'+item.id).then(res=>{
             console.log("data telah dihapus");
             console.log(res);
-            this.getProduct()  
+            this.getProduct() 
         })
     }
 
@@ -76,6 +76,24 @@ class manageProduct extends Component {
             console.log(res);
             this.getProduct()
         })
+
+
+        // VERSI TANPA STOCK
+
+        // const nama = this.editNama.value
+        // const desc = this.editDesc.value
+        // const price = this.editPrice.value
+        
+        // axios.patch('http://localhost:2019/products/'+item.id,
+        // {
+        //     nama: nama,
+        //     desc: desc,
+        //     price: price,
+        // }).then(res=>{
+        //     console.log("data telah disimpan");
+        //     console.log(res);
+        //     this.getProduct()
+        // })
     }
 
     renderList = () => {

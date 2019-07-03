@@ -21,127 +21,113 @@
   ],
   "products": [
     {
-      "nama": "Iwatani-sama",
-      "desc": "The main protagonist of The Rising of the Shield Hero. He was a university student before being summoned to another world, where he had to fight against the waves of calamity the Shield Hero, one of four heroes summoned.",
-      "price": "50000",
-      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/f/fc/Naofumi_Default.png/revision/latest/scale-to-width-down/310?cb=20190203110835",
+      "nama": "Observer Ward",
+      "desc": "Observer Ward (also known as obs) is a Basic item purchasable from the Consumables section at the Home Shop. Because of the power they provide through map control, their stock in the shop is limited to a maximum of 4, with an initial stock of 2. It takes 135 seconds to replenish 1 stock.",
+      "price": "500",
+      "src": "https://liquipedia.net/commons/images/6/69/Observer_Ward.png",
       "id": 1,
-      "stock": "10"
+      "stock": "50"
     },
     {
-      "nama": "Rapthalia-chan",
-      "desc": "A Raccoon-type Demi-Human who was the first real member of the Shield Hero's party after he purchased her as a slave. She is now the Katana Hero",
-      "price": "85000",
-      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/4/44/Raphtalia_Light_Novel.png/revision/latest/scale-to-width-down/310?cb=20190515110336",
+      "nama": "Blade of Alacrity",
+      "desc": "Blade of Alacrity is a Basic Item purchasable from the Attributes section of the Home Shop. It is a component of Yasha, Diffusal Blade, and Aghanim's Scepter.",
+      "price": "1000",
+      "src": "https://liquipedia.net/commons/images/a/a3/Blade_of_Alacrity.png",
       "id": 2,
-      "stock": "13"
+      "stock": "50"
     },
     {
-      "nama": "Filo-chan",
-      "desc": "Next Filolial Queen",
-      "price": "95000",
-      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/0/02/Firo_Default.png/revision/latest?cb=20141205054348",
+      "nama": "Claymore",
+      "desc": "Claymore is a Basic item purchasable from the Armaments section of the Home Shop.",
+      "price": "1400",
+      "src": "https://liquipedia.net/commons/images/0/0c/Claymore.png",
       "id": 3,
-      "stock": "19"
+      "stock": "50"
     },
     {
-      "nama": "Melty-chan",
-      "desc": "Second Princess and heir to Melromarc throne",
-      "price": "75000",
-      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/f/f9/Melty_Default.png/revision/latest/scale-to-width-down/310?cb=20141205163925",
+      "nama": "Ghost Scepter",
+      "desc": "Ghost Scepter is a basic item purchasable from the Arcane section of the Home Shop. Can be upgraded into an Ethereal Blade.",
+      "price": "1500",
+      "src": "https://liquipedia.net/commons/images/2/29/Ghost_Scepter.png",
       "id": 4,
-      "stock": "7"
+      "stock": "50"
     },
     {
-      "nama": "Ren-sama",
-      "desc": "Sword Hero",
-      "price": "40000",
-      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/2/2b/Ren_Light_Novel.png/revision/latest/scale-to-width-down/310?cb=20190411095757",
+      "nama": "Boots of Travel",
+      "desc": "Boots of Travel is an item bought at the Home Shop. Boots of Travel can be upgraded to level 2 by buying the recipe again, allowing the holder to teleport directly to allied heroes, and increasing the movement speed bonus to 35%. ",
+      "price": "2500",
+      "src": "https://liquipedia.net/commons/images/d/d8/Boots_of_Travel.png",
       "id": 5,
-      "stock": "3"
+      "stock": "50"
+    },
+    {
+      "nama": "Holy Locket",
+      "desc": "Holy Locket is an item purchasable at the Home Shop.",
+      "price": "2700",
+      "stock": "50",
+      "src": "https://liquipedia.net/commons/images/thumb/e/ec/Holy_Locket.png/85px-Holy_Locket.png",
+      "id": 6
+    },
+    {
+      "nama": "Shiva's Guard",
+      "desc": "Shiva's Guard (also known as Shiva's) is a powerful item that works great on many carry and support heroes that need high Intelligence stats. It is a situational item for the late game that can cripple the entire enemy team, giving your team an edge in battle",
+      "price": "4750",
+      "stock": "50",
+      "src": "https://liquipedia.net/commons/images/8/89/Shivas_Guard.png",
+      "id": 7
+    },
+    {
+      "nama": "Butterfly",
+      "desc": "Butterfly is one of the strongest agility items for a late game carry.",
+      "price": "5475",
+      "stock": "50",
+      "src": "https://liquipedia.net/commons/images/thumb/1/10/Butterfly.png/85px-Butterfly.png",
+      "id": 8
+    },
+    {
+      "nama": "Eye of Skadi",
+      "desc": "Eye of Skadi (also known as Skadi) is an excellent late game item providing high stat gain.",
+      "price": "5500",
+      "stock": "50",
+      "src": "https://liquipedia.net/commons/images/6/64/Eye_of_Skadi.png",
+      "id": 9
+    },
+    {
+      "nama": "Sacred Relic",
+      "desc": "Sacred Relic is a Secret item purchasable from the Secret Shop.",
+      "price": "3800",
+      "stock": "50",
+      "src": "https://liquipedia.net/commons/images/thumb/4/41/Sacred_Relic.png/85px-Sacred_Relic.png",
+      "id": 10
     }
   ],
   "cart": [
     {
-      "idUser": 3,
-      "idProduct": 4,
-      "nama": "Melty-chan",
-      "qty": "4",
-      "price": "75000",
-      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/f/f9/Melty_Default.png/revision/latest/scale-to-width-down/310?cb=20141205163925",
-      "id": 2
+      "idUser": 2,
+      "idProduct": 1,
+      "nama": "Observer Ward",
+      "qty": 4,
+      "price": "500",
+      "src": "https://liquipedia.net/commons/images/6/69/Observer_Ward.png",
+      "id": 1
     },
     {
-      "idUser": 1,
-      "idProduct": 2,
-      "nama": "Rapthalia-chan",
-      "qty": 3,
-      "price": "85000",
-      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/4/44/Raphtalia_Light_Novel.png/revision/latest/scale-to-width-down/310?cb=20190515110336",
+      "idUser": 2,
+      "idProduct": 5,
+      "nama": "Boots of Travel",
+      "qty": 1,
+      "price": "2500",
+      "src": "https://liquipedia.net/commons/images/d/d8/Boots_of_Travel.png",
       "id": 3
     },
     {
-      "idUser": 1,
-      "idProduct": 3,
-      "nama": "Filo-chan",
-      "qty": 2,
-      "price": "95000",
-      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/0/02/Firo_Default.png/revision/latest?cb=20141205054348",
-      "id": 4
-    },
-    {
-      "idUser": 3,
-      "idProduct": 5,
-      "nama": "Ren-sama",
-      "qty": 5,
-      "price": "40000",
-      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/2/2b/Ren_Light_Novel.png/revision/latest/scale-to-width-down/310?cb=20190411095757",
-      "id": 5
-    },
-    {
-      "idUser": 1,
-      "idProduct": 1,
-      "nama": "Iwatani-sama",
-      "qty": 4,
-      "price": "50000",
-      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/f/fc/Naofumi_Default.png/revision/latest/scale-to-width-down/310?cb=20190203110835",
-      "id": 6
-    },
-    {
-      "idUser": 3,
-      "idProduct": 3,
-      "nama": "Filo-chan",
-      "qty": 2,
-      "price": "95000",
-      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/0/02/Firo_Default.png/revision/latest?cb=20141205054348",
-      "id": 7
-    },
-    {
       "idUser": 2,
-      "idProduct": 2,
-      "nama": "Rapthalia-chan",
-      "qty": "1",
-      "price": "85000",
-      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/4/44/Raphtalia_Light_Novel.png/revision/latest/scale-to-width-down/310?cb=20190515110336",
-      "id": 8
-    },
-    {
-      "idUser": 2,
-      "idProduct": 5,
-      "nama": "Ren-sama",
+      "idProduct": 10,
+      "nama": "Sacred Relic",
       "qty": 1,
-      "price": "40000",
-      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/2/2b/Ren_Light_Novel.png/revision/latest/scale-to-width-down/310?cb=20190411095757",
-      "id": 10
-    },
-    {
-      "idUser": 3,
-      "idProduct": 1,
-      "nama": "Iwatani-sama",
-      "qty": 3,
-      "price": "50000",
-      "src": "https://vignette.wikia.nocookie.net/the-rising-of-the-shield-hero/images/f/fc/Naofumi_Default.png/revision/latest/scale-to-width-down/310?cb=20190203110835",
-      "id": 11
+      "price": "3800",
+      "src": "https://liquipedia.net/commons/images/thumb/4/41/Sacred_Relic.png/85px-Sacred_Relic.png",
+      "id": 4
     }
   ]
 }
